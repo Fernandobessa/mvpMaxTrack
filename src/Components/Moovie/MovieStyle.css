@@ -1,0 +1,76 @@
+.posterStyle {
+    height: 200px;
+    float: left;
+    cursor: pointer;
+}
+.row {
+    display: flex;
+    flex-direction:column;
+    width: 100%; /*Optional*/
+}
+.column {
+ height: 200px;
+ width: 100%;
+ margin-bottom: 5px !important;
+ background: gainsboro;
+}
+.textPosterTitle{
+    margin-left: 11%;
+    font-size: 16px;
+    margin-top: 1%;
+}
+.textModalTitle{
+    width: 100%;
+    margin-left: 11%;
+    font-size: 16px;
+    margin-top: 1%;
+}
+.textPosterDescriotion{
+    margin-left: 11%;
+    font-size: 12px;
+}
+.textBody{
+    margin-left: 3%;
+    font-size: 14px;
+}
+.modal-body{
+    margin-left: 3%;
+}
+.filterStyle{
+    width: 100%;
+    margin-bottom: 1%;
+    height: 100px;
+    background: cadetblue;
+}
+.select{
+    height: 32px;
+    width: 15%;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: cadetblue;
+}
+.input{
+    width: 50%;
+    height: 32px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: cadetblue;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.btnSearch{
+    height: 32px;
+    background: white;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: cadetblue;
+}
+.logo{
+    width: 70px;
+    width: 70px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
